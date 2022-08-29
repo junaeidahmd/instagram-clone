@@ -1,0 +1,21 @@
+.tab a{
+    margin:1rem;
+    color:grey;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+}
+.tab a.active{
+    padding:1rem;
+    background-color: blue;
+}
+.tab-content{
+    margin-top:2rem !important;
+}
+.tab-pane.active{
+    display:block;
+}
+.tab-pane{
+    display: none;
+}

@@ -1,0 +1,225 @@
+.content{
+    padding:0rem 2rem !important;
+}
+.container2{
+    max-width:852px !important;
+}
+.chatbox-main{
+    display:flex;
+    border:1px solid rgba(219, 219, 219);
+    width:97%;
+    overflow: hidden;
+    height: 85vh;
+}
+.left{
+    display:table-cell;
+    border-right:1px solid rgba(219, 219, 219);
+    width: 58%;
+}
+.right{
+    width:100%;
+}
+svg{
+    margin:0;
+}
+.chat-head{
+    padding:18px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20%;
+    border-bottom:1px solid rgba(219, 219, 219);
+}
+.chat-head a{
+    font-size: 15px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color:black;
+    font-weight:600;
+}
+.chat-head i{
+    font-weight: 600;
+}
+.accounts{
+    padding:8px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.ids-section{
+    border-right:1px solid rgba(219, 219, 219);
+}
+.accounts img{
+    width:20%;
+    border-radius:30px;
+    margin-right:9px;
+}
+.ids-name{
+    display:flex;
+    flex-direction: unset;
+    overflow:hidden;
+    align-items: center;
+    width: 100%;
+}
+.ids-name .name{
+    font-family: sans-serif;
+    font-weight: 350;
+    font-size: 13px;
+    display: flex;
+    color: black;
+    flex: column;
+    flex-direction: column;
+}
+ .messege{
+    color:#c3c3c3;
+    font-family:sans-serif;
+    font-size:14px;
+    font-size: 85%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-overflow: ellipsis;
+    vertical-align: baseline;
+    max-width: 233px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-overflow: ellipsis;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.time .timing{
+    font-family:sans-serif;
+    font-weight:500;
+    font-size:13px;
+    color:#c3c3c3;
+}
+.flex-ids{
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    height: 420px;
+    padding-top:5px;
+}
+::-webkit-scrollbar{
+    width:5px;
+    background: #505050;
+}
+.accounts.active{
+    background-color: rgb(239, 239, 239) !important;
+
+}
+.flex-ids a{
+    text-decoration: none;
+}
+.message-header{
+    display:flex;
+    padding:16px 38px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:1px solid rgb(212, 209, 209);
+}
+.message-name{
+    display: flex;
+    align-items: center;
+    gap:5%;
+}
+.message-name span{
+    font-family: system-ui;
+    font-size:14px;
+    font-weight:600;
+}
+.message-header img{
+    width:9%;
+    border-radius: 20px;
+}
+
+.call-section{
+    display:flex;
+    gap: 6%;
+    align-items: center;
+}
+.call-section a svg{
+    margin-right: 10px;
+}
+.chatbox-home{
+    margin-top:0.8rem !important;
+    margin-bottom:0.8rem !important;
+}
+.chatbox-message-content{
+    display:flex;
+    flex-direction: column;
+    grid-row-gap:1rem;
+    padding:20px 20px 20px;
+    justify-content: flex-end;
+    height: 65vh;
+    overflow-y: scroll !important;
+}
+.chatbox-message-item{
+    width:90%;
+    padding:.75rem;
+}
+.chatbox-message-item.sent{
+    align-self: flex-end;
+    background-color: rgb(239, 239, 239) !important;
+    color:black;
+    border-radius:.5rem 0 .5rem .5rem;
+    font-family:serif;
+    font-weight:100;
+    font-size:13px;
+    display: table;
+    width:44%;
+}
+.chatbox-message-item.recived{
+    background-color: rgb(255, 255, 255) !important;
+    color:black;
+    border-radius:.5rem 0 .5rem .5rem;
+    font-family:serif;
+    font-weight:100;
+    font-size:13px;
+    width:44%;
+    border:1px solid rgb(241, 241, 241);
+}
+.chatbox-message-input{
+    border: 20px;
+    width:100%;
+    border:1px solid rgb(198, 197, 197);
+
+}
+.chatbox-message-form{
+    max-width: 470px;
+    margin: auto;
+    display:flex;
+    position: relative;
+}
+.chatbox-message-submit{
+    border:none;
+    background-color: white;
+    margin-right:20px;
+    position: absolute;
+    right: 0;
+    top: 33%;
+    color:#096fdc;
+    cursor: pointer;
+    display:none;
+}
+.chatbox-message-input{
+    padding: 11px;
+    border-radius:30px;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+textarea::placeholder{
+    font-family:sans-serif;
+}
+.message-section{
+    display:none;
+}
+.message-section.active{
+    display:block;
+}
+.time{
+    display:flex;
+    overflow: hidden;
+    max-width: 193px;
+}
