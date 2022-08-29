@@ -71,14 +71,7 @@ likes.forEach(function(liked){
     })
   })
 
-var count=0;
-document.querySelector('#textarea').addEventListener('keypress',function(eve){
-  count++;
 
-  var text=eve.key;
-  
-  document.querySelector('p').innerHTML=count;
-})
 
 function fucktion(){
     icon.classList.add('active');
@@ -93,10 +86,10 @@ document.addEventListener('click',function(e){
 })
 
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
+    slidesPerView: 1,
     centeredSlides: true,
     
-    spaceBetween: 10,
+    spaceBetween: 20,
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",

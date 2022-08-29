@@ -196,7 +196,7 @@ div#swiper-wrapper-5c88aff675e9de0d{
     display: block;
     width: 89%;
     height: 100%;
-    object-fit: cover;
+    object-fit: revert;
     border:1px solid hotpink;
     background: linear-gradient(90deg ,#fd1de3,#ffaa34);
     border-radius:50px;
@@ -464,7 +464,12 @@ div#swiper-wrapper-5c88aff675e9de0d{
 .post{
     margin:1rem 0;
 }
-
+a{
+    text-decoration: none !important;
+}
+.swiper-wrapper{
+    left:-4%;
+}
 @keyframes heart{
     0%{
         transform: scale(1.2,1.2);
@@ -491,6 +496,9 @@ div#swiper-wrapper-5c88aff675e9de0d{
     }
     .c2{
         display: none;
+    }
+    .swiper-wrapper{
+        left:-11% !important;
     }
 }
 @media screen and (max-width:640px){
