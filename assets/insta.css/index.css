@@ -467,9 +467,7 @@ div#swiper-wrapper-5c88aff675e9de0d{
 a{
     text-decoration: none !important;
 }
-.swiper-wrapper{
-    left:-4%;
-}
+
 @keyframes heart{
     0%{
         transform: scale(1.2,1.2);

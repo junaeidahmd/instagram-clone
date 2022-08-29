@@ -86,10 +86,10 @@ document.addEventListener('click',function(e){
 })
 
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
+    slidesPerView: 3,
     centeredSlides: true,
     
-    spaceBetween: 20,
+    spaceBetween: 10,
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",
@@ -99,11 +99,14 @@ var swiper = new Swiper(".mySwiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-  });
+  }); 
+
+  
+
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     centeredSlides: true,
-    spaceBetween: 30,
+    // spaceBetween: -10,
     preventInteractionOnTransition: true,
 
     pagination: {
