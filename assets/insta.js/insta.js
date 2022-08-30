@@ -52,7 +52,9 @@ emoji.forEach(function(allemoji){
 
 })
 
-
+window.addEventListener('change',function(e){
+  console.log(e.type);
+})
 
 
 
@@ -73,7 +75,7 @@ likes.forEach(function(liked){
 
 
 
-function fucktion(){
+function asdf(){
     icon.classList.add('active');
     recent.classList.add('active')
 }
@@ -106,7 +108,7 @@ var swiper = new Swiper(".mySwiper", {
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     centeredSlides: true,
-    // spaceBetween: -10,
+  
     preventInteractionOnTransition: true,
 
     pagination: {
